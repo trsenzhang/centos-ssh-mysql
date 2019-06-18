@@ -91,6 +91,7 @@ RUN ln -sf \
 	&& chmod 700 \
 		/usr/{bin/healthcheck,sbin/{scmi,sshd-{bootstrap,wrapper}}} \
 	&& echo "root:password"|chpasswd \
+	&& chown -R root:root /root/.ssh \
 	&& chmod 700 /root/.ssh \
 	&& chmod 600 /root/.ssh/*
 
