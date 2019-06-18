@@ -111,11 +111,11 @@ ENV \
 	SSH_PASSWORD_AUTHENTICATION="false" \
 	SSH_SUDO="ALL=(ALL) ALL" \
 	SSH_TIMEZONE="Asia/Shanghai" \
-	SSH_USER="root" \
+	SSH_USER="mzhang" \
 	SSH_USER_FORCE_SFTP="false" \
 	SSH_USER_HOME="/home/%u" \
 	SSH_USER_ID="500:500" \
-	SSH_USER_PASSWORD="password" \
+	SSH_USER_PASSWORD="mzhang" \
 	SSH_USER_PASSWORD_HASHED="false" \
 	SSH_USER_PRIVATE_KEY="" \
 	SSH_USER_SHELL="/bin/bash"
