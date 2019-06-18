@@ -76,8 +76,6 @@ RUN ln -sf \
 	&& echo "NETWORKING=yes" \
 		> /etc/sysconfig/network \
 	&& sed -i \
-		-e 's~^PasswordAuthentication yes~PasswordAuthentication no~g' \
-		-e 's~^#PermitRootLogin yes~PermitRootLogin no~g' \
 		-e 's~^#UseDNS yes~UseDNS no~g' \
 		-e 's~^\(.*\)/usr/libexec/openssh/sftp-server$~\1internal-sftp~g' \
 		/etc/ssh/sshd_config \
