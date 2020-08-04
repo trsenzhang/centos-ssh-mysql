@@ -36,10 +36,8 @@ RUN rpm --rebuilddb \
                 iproute \
                 net-tools \
                 wget \
-		yum-plugin-versionlock-1.1.31-50.el7 \
 		sudo-1.8.23-4.el7 \
-		yum-plugin-versionlock-1.1.31-52.el7 \
-		yum-plugin-versionlock-1.1.31-54.el7 \
+		yum-plugin-versionlock \
 	&& yum versionlock add \
 		openssh \
 		openssh-server \
