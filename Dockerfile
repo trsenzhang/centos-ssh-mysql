@@ -23,11 +23,11 @@ RUN rpm --rebuilddb \
 		centos-release-scl-rh \
 		epel-release \
 		https://centos7.iuscommunity.org/ius-release.rpm \
-		openssh-clients-7.4p1-16.el7 \
-		openssh-server-7.4p1-16.el7 \
-		openssl-1.0.2k-16.el7 \
+		openssh-clients \
+		openssh-server \
+		openssl \
 		python-setuptools-0.9.8-7.el7 \
-		sudo-1.8.23-3.el7 \
+		sudo \
 		vim \
                 tree \
                 libaio \
@@ -36,7 +36,6 @@ RUN rpm --rebuilddb \
                 iproute \
                 net-tools \
                 wget \
-		sudo-1.8.23-4.el7 \
 		yum-plugin-versionlock \
 	&& yum versionlock add \
 		openssh \
